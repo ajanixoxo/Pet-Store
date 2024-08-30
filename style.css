@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family:"SM" ;
+    src: url(SM.ttf);
+}
+@font-face {
+    font-family:"Trap" ;
+    src: url(Trap.otf);
+}
+
+body{
+    background: url(Desktop\ -\ 4.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 10px 20px 10px 20px;
+     h1{
+        font-family: "SM";
+        color:#00D7FF;
+        font-size: 27px;
+        span{
+            color: #FFB247;
+        }
+     }
+     ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        font-family: "SM";
+        font-size: 20px;
+        color:#F6F6F6;
+     }
+    
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    .left{
+display: flex;
+flex-direction: column;
+gap: 150px;
+margin-left: 100px;
+margin-top: 50px;
+width: 80%;
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    h1{
+        font-family: "SM";
+        font-size: 86px;
+        width: 800px;
+        color: white;
+        letter-spacing: 5px;
+    }
+    p{
+        font-size: 24px;
+        width: 670px;
+        font-family: "Trap";
+        color: white;
+    }
+}
+.avtart{
+p{
+    font-family: "Trap";
+    color: #fff;
+    font-size: 24px;
+}
+}
+    }
+    .right{
+        top: 0;
+        margin-top: -50px;
+        width: 50%;
+
+        
+       img{
+       
+        margin-top: -30px;
+       
+       } 
+       .img{
+        position: absolute;
+        bottom: -30px;
+        right: 130px;
+        width: 600px;
+       
+       } 
+    }
+}
